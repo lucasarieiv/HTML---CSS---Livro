@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Box Shadow</title>
+    <style media="screen">
+      p {
+        width: 200px;
+        height: 200px;
+        background-color: #d1d1d1;
+        display: inline-block;
+        margin-left: 50px;
+      }
+      p.one {
+        -moz-box-shadow: -5px -5px #777;
+        -webkit-box-shadow: -5px -5px #777;
+        box-shadow: -5px -5px #777;
+      }
+
+      p.two {
+        -moz-box-shadow: 5px 5px #777;
+        -webkit-box-shadow: 5px 5px #777;
+      }
+
+      p.three {
+        -moz-box-shadow: 5px 5px 5px 5px #777;
+        -webkit-box-shadow: 5px 5px 5px 5px #777;
+      }
+
+      p.four {
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 50px #777;
+      }
+
+      p.five {
+        -moz-box-shadow: inset 0 0 10px #777;
+        -webkit-box-shadow: inset 0 0 10px #777;
+      }
+
+    </style>
+  </head>
+  <body>
+      <p class='one'></p>
+      <p class='two'></p>
+      <p class='three'></p>
+      <p class='four'></p>
+      <p class='five'></p>
+  </body>
+</html>
