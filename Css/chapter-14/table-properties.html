@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Table Properties</title>
+    <style media="screen">
+      body {
+        font-family: Arial, Verdana, san-serif;
+        color: #111;
+      }
+      table {
+        width: 900px;
+      }
+      th, td {
+        padding: 7px 10px 10px 10px;
+      }
+      .bold {
+        font-weight: bold;
+      }
+      th {
+        background-color: #24c298;
+        color: #fff;
+        font-size: 120%;
+        font-weight: 400;
+      }
+      th.rad {
+        border-top-left-radius: 5px;
+      }
+
+      th.rad2 {
+        border-top-right-radius: 5px;
+      }
+      tr.even {
+        background-color: #efefef;
+      }
+      tr:hover {
+        transition: 0.2s;
+        background-color: #d4f7ee;
+      }
+      td.btn {
+        text-align: center;
+        padding: 20px;
+     }
+     td.btn > button {
+       background-color: #28d7a7;
+       border-style: none;
+       border-radius: 2px;
+       letter-spacing: 0.1em;
+       font-size: 90%;
+       color: #fff;
+       font-weight: 400;
+       padding: 8px 15px 8px 15px;
+       box-shadow: 1px 1px 2px #082b22;
+     }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th class='rad'>Starter</th>
+        <th>Professional</th>
+        <th>Business</th>
+        <th class='rad2'>Unlimited</th>
+      </tr>
+      <tr>
+        <td>$29 p/m</td>
+        <td>$59 p/m</td>
+        <td>$99 p/m</td>
+        <td>$149 p/m</td>
+      </tr>
+      <tr class='even'>
+        <td><span class='bold'>Unlimited</span> bandwidth</td>
+        <td><span class='bold'>Unlimited</span> bandwidth</td>
+        <td><span class='bold'>Unlimited</span> bandwidth</td>
+        <td><span class='bold'>Unlimited</span> bandwidth</td>
+      </tr>
+      <tr>
+        <td><span class='bold'>Free</span> setup</td>
+        <td><span class='bold'>Free</span> setup</td>
+        <td><span class='bold'>Free</span> setup</td>
+        <td><span class='bold'>Free</span> setup</td>
+      </tr>
+      <tr class='even'>
+        <td><span class='bold'>3</span> tracks</td>
+        <td><span class='bold'>10</span> tracks</td>
+        <td><span class='bold'>100</span> tracks</td>
+        <td><span class='bold'>Unlimited tracks</span></td>
+      </tr>
+      <tr>
+        <td><span class='bold'>5%</span> transaction fee</td>
+        <td><span class='bold'>3%</span> transaction fee</td>
+        <td><span class='bold'>2%</span> transaction fee</td>
+        <td><span class='bold'>1%</span> transaction fee</td>
+      </tr>
+      <tr class='even'>
+        <td><span class='bold'>100mb</span> storage</td>
+        <td><span class='bold'>500mb</span> storage</td>
+        <td><span class='bold'>1000mb</span> storage</td>
+        <td><span class='bold'>Unlimited</span> storage</td>
+      </tr>
+      <tr>
+        <td class='btn'><button type="button" name="button">SIGN UP NOW</button></td>
+        <td class='btn'><button type="button" name="button">SIGN UP NOW</button></td>
+        <td class='btn'><button type="button" name="button">SIGN UP NOW</button></td>
+        <td class='btn'><button type="button" name="button">SIGN UP NOW</button></td>
+      </tr>
+    </table>
+  </body>
+</html>
