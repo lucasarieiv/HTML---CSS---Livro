@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Layout Fixed</title>
+    <style media="screen">
+      body {
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      section {
+        overflow: auto;
+        height: 100%;
+      }
+      nav, #feature, footer {
+        background-color: #efefef;
+        padding: 10px;
+        margin: 10px;
+      }
+      nav ul li {
+        display: inline;
+      }
+      .column1, .column2, .column3 {
+        background-color: #efefef;
+        width: 300px;
+        float: left;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Logo</h1>
+      <nav>
+        <ul>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>Products</a></li>
+          <li><a href='#'>Services</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <article id="feature">
+          <p>Features</p>
+      </article>
+      <article class="column1">
+        <p>Column One</p>
+      </article>
+      <article class="column2">
+        <p>Column Two</p>
+      </article>
+      <article class="column3">
+        <p>Column Three</p>
+      </article>
+    </section>
+    <footer>
+      <p>&copy; Copyright 2011</p>
+    </footer>
+  </body>
+</html>
