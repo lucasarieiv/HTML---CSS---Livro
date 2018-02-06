@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yoko's Kitchen</title>
+    <style media="screen">
+
+      body {
+        margin: 0 auto;
+        font-size: 16px;
+      }
+
+      .main {
+        width: 1200px;
+        margin: 0 auto;
+      }
+
+      header {
+        height: 200px;
+        margin-bottom: 20px;
+      }
+
+      header h1 {
+        text-align: center;
+        font-size: 64px;
+        font-family: Times, "Times New Roman", serif;
+        letter-spacing: 10px;
+        color: #A50E09;
+        padding: 20px 0px ;
+        border-bottom: 2px solid #e1e1e1;
+      }
+
+      header nav ul {
+        text-align: center;
+      }
+
+      header li {
+        display: inline;
+        margin: 50px;
+        font-size: 18px;
+        font-family: Times, "Times New Roman", serif;
+        font-weight: 300;
+        letter-spacing: 5px;
+        padding: 10px;
+      }
+
+      header li a {
+        text-decoration: none;
+        text-transform: capitalize;
+      }
+
+      header a:visited {
+        color: #FF400D;
+      }
+
+      header a:hover {
+        padding-bottom: 10px;
+        transition: 0.1s;
+        color: #870E09;
+        border-bottom: 3px solid #A70046;
+      }
+
+      .Banner {
+        width: 100%;
+        height: 600px;
+        background-image: url('banner.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 10% 0%;
+      }
+
+      .article1{
+        background-color: #d1d1d1;
+      }
+
+      .article1 figure {
+        /*display: inline;*/
+        float: left;
+      }
+
+      .article1 figure img {
+        width: 300px;
+        height: 300px;
+      }
+
+      .article1 .title {
+        /*display: inline;*/
+        float: right;
+
+      }
+
+      .article1 {
+        float: right;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="main"> -->
+    <header>
+      <h1>Yoko's Kitchen</h1>
+      <nav>
+        <ul>
+          <li><a href="#" class="current">home</a></li>
+          <li><a href="#">classes</a></li>
+          <li><a href="#">catering</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="Banner">
+
+    </div>
+    <section class='main'>
+      <article class='article1'>
+        <figure>
+          <img src="kitchen.jpg" alt="Nothen">
+          <figcaption>Bok Choi</figcaption>
+        </figure>
+        <div class='title'>
+          <h2>Japanese Vegetarian</h2>
+          <h3>Five Week course in London</h3>
+        <p>A five week introduction to traditional
+        Japanese vegetarian meals, teaching you a
+        selection of rice and noodle dishes.</p>
+        </div>
+      </article>
+      <article>
+        <figure>
+          <img src="kitchen.jpg" alt="">
+          <figcaption>Teriyaki Sauce</figcaption>
+        </figure>
+        <hgroup>
+          <h2>Sauces Masterclass</h2>
+          <h3>One day workshop</h3>
+        </hgroup>
+        <p>An intensive one-day course looking at how to
+        create the most delicious sauces for use in a
+        range of Japanese cookery.</p>
+      </article>
+      <article>
+        <h2>Popular Recipes</h2>
+        <a href="#">Yakitori (Grilled chicken)</a>
+        <a href="#">Tsukune (Minced chicken patties)</a>
+        <a href="#">Okonomiyaki (Savory pancakes)</a>
+        <a href="#">Mizutaki (Chicken stew)</a>
+      </article>
+      <article>
+        <h2>Contact</h2>
+        <p>Yoko's kitchen<br/ >
+           27 Redchurch Street<br />
+           Shoreditch<br/ >
+           London E2 7DP</p>
+      </article>
+    </section>
+  </body>
+</html>
