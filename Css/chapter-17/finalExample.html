@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kitchen</title>
+    <style media="screen">
+
+      header, section, footer, aside, nav, article, figure, figcaption {
+        display: block;
+      }
+
+      body {
+        color: #666666;
+        background-color: #f9f8f6;
+        font-family: Georgia, times, serif;
+        line-height: 1.4em;
+        margin: 0px;
+      }
+
+      .wrapper {
+        width: 940px;
+        margin: 20px auto;
+        border: 2px solid #000;
+        background-color: #fff;
+      }
+
+      header {
+        height: 160px;
+        background-color: #d1d1d1;
+      }
+
+      h1 {
+        text-indent: -9999px;
+        width: 940px;
+        height: 130px;
+        margin: 0px;
+      }
+
+      nav, footer {
+        clear: both;
+        color: #fff;
+        background-color: #aeaca8;
+        height: 30px;
+      }
+
+      nav ul {
+        margin: 0px;
+        padding: 5px 0px 5px 30px;
+      }
+
+      nav li {
+        display: inline;
+        margin-right: 40px;
+      }
+
+      nav li a {
+        color: #fff;
+      }
+
+      nav li a:hover, nav li a.current {
+        color: #000;
+      }
+
+      section.courses {
+        float: left;
+        width: 659px;
+        border-right: 1px solid #eee;
+      }
+
+      article {
+        clear: both;
+        overflow: auto;
+        width: 100%;
+      }
+
+      hgroup {
+        margin-top: 40px;
+      }
+
+      figure {
+        float: left;
+        width: 290px;
+        height: 220px;
+        padding: 5px;
+        margin: 20px;
+        border: 1px solid #eee;
+      }
+
+      img {
+        width: 290px;
+        height: 220px;
+      }
+
+      figcaption {
+        font-size: 90%;
+        text-align: left;
+      }
+
+      aside {
+        width: 230px;
+        float: left;
+        padding: 0px 0px 0px 20px;
+      }
+
+      aside section a {
+        display: block;
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+      }
+
+      aside section a:hover {
+        color: #985d6a;
+        background-color: #efefef;
+      }
+
+      a {
+        color: #de6581;
+        text-decoration: none;
+      }
+
+      h1, h2, h3 {
+        font-weight: normal;
+      }
+
+      h2 {
+        margin: 10px 0px 5px 0px;
+        padding: 0px;
+      }
+
+      h3 {
+        margin: 0px 0px 10px 0px;
+        color: #ed6581;
+      }
+
+      aside h2 {
+        padding: 30px 0px 10px 0px;
+        color: #de6581;
+      }
+
+      footer {
+        font-size: 80%;
+        padding: 7px 0px 0px 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Água na Boca</h1>
+        <nav>
+          <ul>
+            <li><a href="#" class='current'>home</a></li>
+            <li><a href="#">classes</a></li>
+            <li><a href="#">catering</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section class='courses'>
+        <article>
+          <figure>
+            <img src="food1.jpg" alt="Bolo de Milho">
+            <figcaption>Bolo de Milho</figcaption>
+          </figure>
+          <hgroup>
+            <h2>Bolo de Milho</h2>
+            <h3>Lucas Vieira</h3>
+          </hgroup>
+          <p>Uma dica otima pra deixar o bolo cremoso é adicionar
+          leite condensado, e não adicionar a água do milho.
+          Fica uma delicia. E como aqui em casa ninguém gosta de coco ralado,
+          removi da receita e também deu super certo!</p>
+        </article>
+        <article>
+          <figure>
+            <img src="food.jpg" alt="Bolo de Chocolate">
+            <figcaption>Bolo de Chocolate</figcaption>
+          </figure>
+          <hgroup>
+            <h2>Bolo de Chocolate Granulado</h2>
+            <h3>Bruno Aguiar</h3>
+          </hgroup>
+          <p>Receita perfeita! Quando a gente coloca na forma já tem ideia se
+            corre o risco de transbordar, ou não. Usei uma forma de tamanho
+            adequado à quantidade de massa e não tive problemas. Ficou delicioso!</p>
+        </article>
+      </section>
+      <aside>
+        <section class='receitas-popular'>
+          <h2>Receitas Poular</h2>
+          <a href="#">Bolo de Cenoura</a>
+          <a href="#">Bolo de Chocolate Granulado</a>
+          <a href="#">Bolo de Milho</a>
+          <a href="#">Bolo de Morando</a>
+        </section>
+        <section class='contato'>
+          <h2>Contato</h2>
+          <p>Água na Boca<br/ >
+             27 Rua Clorestina<br/ >
+             Brasil - São Paulo
+          </p>
+        </section>
+      </aside>
+    <footer>
+      &copy; 2018 Água na Boca
+    </footer>
+    </div>
+  </body>
+</html>
